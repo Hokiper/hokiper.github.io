@@ -1,0 +1,114 @@
+@font-face {
+  font-family: LTWave;
+  font-weight: regular;
+  src: url(fonts/LTWave-Regular.ttf);
+}
+
+@font-face {
+  font-family: LTWave;
+  font-weight: bold;
+  src: url(fonts/LTWave-Bold.ttf);
+}
+
+@font-face {
+  font-family: UniNeue;
+  font-weight: bold;
+  src: url(fonts/UniNeue-Trial-Bold.ttf);
+}
+
+footer {
+  font-size: 1.125rem;
+  font-family: LTWave;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-image: linear-gradient(to bottom right,rgb(57, 128, 57),#116486,#3b3b3b);
+  font-size: 1.875rem;
+  font-family: UniNeue;
+  text-align: left;
+  color: white;
+}
+
+header {
+  text-align: center;
+}
+
+/* The area where all the contents of the page are put in */
+.container {
+  margin: 16px;
+  width: 512px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+.links-section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Properties common to all link buttons */
+.link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 200ms, color 200ms;
+  margin: 4px 0px;
+  border: 2px solid white;
+  border-radius: 16px;
+  padding: 8px 40px 8px 8px;
+  font-size: 1.25rem;
+  font-family: UniNeue;
+  color: white;
+  background-color: transparent;
+}
+
+.link svg path {
+  transition: fill 200ms;
+  fill: white;
+}
+
+/* Remove default styles for <a> element */
+a:link, a:visited, a:link:active, a:visited:active {
+  text-decoration: none;
+}
+
+/* Specific styles for links */
+
+
+a.link[href*="github"]:hover{
+  color: #24292f;
+  background-color: white;
+}
+a.link[href*="github"]:hover svg path {
+  fill: #24292f;
+}
+
+a.link[href*="pixiv"]:hover {
+  color: #0096fa;
+  background-color: white;
+}
+a.link[href*="pixiv"]:hover svg path {
+  fill: #0096fa;
+}
+
+a.link[href*="twitter"]:hover {
+  color: #1d9bf0;
+  background-color: white;
+}
+a.link[href*="twitter"]:hover svg path {
+  fill: #1d9bf0;
+}
+
+a.link[href*="cgtrader"]:hover {
+  color: #19bcc9;
+  background-color: white;
+}
+a.link[href*="cgtrader"]:hover svg path {
+  fill: #19bcc9;
+}
