@@ -25,13 +25,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   margin: 0;
   background-image: linear-gradient(to bottom right,rgb(57, 128, 57),#116486,#3b3b3b);
   font-size: 1.875rem;
   font-family: UniNeue;
   text-align: left;
   color: white;
+  height: 100vh;
 }
 
 header {
@@ -88,6 +88,14 @@ a.link[href*="github"]:hover{
 }
 a.link[href*="github"]:hover svg path {
   fill: #24292f;
+}
+
+a.link[href*="mastodon"]:hover {
+  color: #6364ff;
+  background-color: white;
+}
+a.link[href*="mastodon"]:hover svg path {
+  fill: #6364ff;
 }
 
 a.link[href*="pixiv"]:hover {
