@@ -16,11 +16,6 @@
   src: url(fonts/UniNeue-Trial-Bold.ttf);
 }
 
-footer {
-  font-size: 1.125rem;
-  font-family: LTWave;
-}
-
 body {
   display: flex;
   justify-content: center;
@@ -36,6 +31,13 @@ body {
 
 header {
   text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  font-size: 1.125rem;
+  font-family: LTWave;
+  margin-top: 20px;
 }
 
 /* The area where all the contents of the page are put in */
@@ -51,6 +53,7 @@ header {
 .links-section {
   display: flex;
   flex-direction: column;
+  margin: 20px 0;
 }
 
 /* Properties common to all link buttons */
