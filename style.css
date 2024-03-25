@@ -123,6 +123,14 @@ a.link[href*="pixiv"]:hover svg path {
   fill: #0096fa;
 }
 
+a.link[href*="x.com"]:hover {
+  color: #000000;
+  background-color: white;
+}
+a.link[href*="x.com"]:hover svg path {
+  fill: #000000;
+}
+
 a.link[href*="cgtrader"]:hover {
   color: #19bcc9;
   background-color: white;
