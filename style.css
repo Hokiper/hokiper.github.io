@@ -99,22 +99,6 @@ a.link[href*="github"]:hover svg path {
   fill: #24292f;
 }
 
-a.link[href*="mastodon"]:hover {
-  color: #6364ff;
-  background-color: white;
-}
-a.link[href*="mastodon"]:hover svg path {
-  fill: #6364ff;
-}
-
-a.link[href*="pixelfed"]:hover {
-  color: #6366f1;
-  background-color: white;
-}
-a.link[href*="pixelfed"]:hover svg path {
-  fill: #6366f1;
-}
-
 a.link[href*="pixiv"]:hover {
   color: #0096fa;
   background-color: white;
