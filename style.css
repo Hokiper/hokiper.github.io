@@ -16,6 +16,10 @@
   src: url(fonts/UniNeue-Trial-Bold.ttf);
 }
 
+html, body {
+  min-height: 100%;
+}
+
 body {
   display: flex;
   justify-content: center;
