@@ -87,14 +87,6 @@ a:link, a:visited, a:link:active, a:visited:active {
 
 /* Specific styles for links */
 
-a.link[href*="cohost"]:hover{
-  color: #83254f;
-  background-color: white;
-}
-a.link[href*="cohost"]:hover svg path {
-  fill: #83254f;
-}
-
 a.link[href*="github"]:hover{
   color: #24292f;
   background-color: white;
