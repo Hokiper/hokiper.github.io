@@ -87,6 +87,14 @@ a:link, a:visited, a:link:active, a:visited:active {
 
 /* Specific styles for links */
 
+a.link[href*="cara"]:hover{
+  color: #18181b;
+  background-color: white;
+}
+a.link[href*="cara"]:hover svg path {
+  fill: #18181b;
+}
+
 a.link[href*="github"]:hover{
   color: #24292f;
   background-color: white;
